@@ -33,5 +33,5 @@ if __name__ == "__main__":
     end_location = maze3.find_end()
 
     maze3_score = (maze_solver_object.solver(start_location_for_solver, end_location))
-
+    print("results are ready")
     print(f'Maze 1: {maze1_score}\nMaze 2: {maze2_score}\nMaze 3: {maze3_score}')
